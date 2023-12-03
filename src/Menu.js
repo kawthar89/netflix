@@ -23,7 +23,8 @@ function Menu ()  {
     </Dropdown.Menu>
   </Dropdown>
   </div>
-  <div className="centre"><p>Films et série en illimité, et bien plus</p>
+  <div className="centre">
+  <p>Films et série en illimité, et bien plus</p>
     <input type='texte' placeholder='Adresse e-mail'></input>
     <button ONCLICK>Commencer</button>
     </div>
