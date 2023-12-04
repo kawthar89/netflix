@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import { Dropdown } from 'bootstrap'
 
 const Header = () => {
   return (
@@ -11,9 +10,17 @@ const Header = () => {
       <div className='btn'>
      <button>francais</button>
      <button onclick >s'identifier</button>
+     
      </div>
       </div>
+     
+      <p className='txt-center'>Films et série en illimité, et bien plus</p>
+      <div className="centre">
+        <input type='texte' placeholder='Adresse e-mail'></input>
+        <button ONCLICK>START</button></div>
+       
     </div>
+    
   )
 }
 
